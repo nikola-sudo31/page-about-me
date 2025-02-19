@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML, CSS & JS Scratch</title>
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <div class="navbar"> 
+        <ul>
+            <li><button class="btn info" onclick="showPage('info')">Information</button></li>
+            <li><button class="btn warning" onclick="showPage('warning')">Kontaktdaten</button></li>
+            <li><button class="btn success" onclick="showPage('success')">Erfolg</button></li>
+            <li><button class="btn danger" onclick="showPage('danger')">Hobbies</button></li>
+            <li><button onclick="toggleLanguage()">Switch Language</button></li>
+        </ul>
+    </div>
+
+    <h2 class="default">Sachen über mich</h2>
+    
+    <div id="content" class="card slide-in">
+        <!-- Content will be dynamically added here -->
+    </div>
+
+    <footer class="footer"></footer>
+</body>
+</html>
