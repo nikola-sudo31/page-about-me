@@ -21,13 +21,8 @@ function showPage(page) {
                 case 'info':
                     htmlContent = `
                         <div class="container">
-                            <h3>Information</h3>
-                            <p>Vorname: Nikola</p>
-                            <p>Nachname: Jergovic</p>
-                            <p>Familie: 2 Geschwister, Eltern</p>
-                            <p>Ort,PLZ: Opfikon,8152</p>
-                            <p>Wohnort: Glattpark</p>
-                            <img src="https://banner2.cleanpng.com/20180421/tte/ave3i4fbc.webp">
+                        <p> Name: Walter White</p>
+                         <img src="https://banner2.cleanpng.com/20180421/tte/ave3i4fbc.webp">
                         </div>
                     `;
                     break;
@@ -35,9 +30,7 @@ function showPage(page) {
                     htmlContent = `
                         <div class="container">
                             <h3>Kontakdaten</h3>
-                           <p>  Nummer: +41 76 305 74 00</p>
-                            <p> Email: nikola.jergovic@gmail.com </p>
-                            <p> Schulemail: nikola.jergovic@sus-opfikon.ch
+                           <p>  Nummer: +41 79 876 24 33</p>
                             <img src="https://www.kibar.com/-/media/images/pages/info/bize-ulasin-banner.jpg?h=448&la=de-DE&w=1366&hash=41A5451BAC927F4417E74B599041417254AB6835"
                             </div>
                     `;
@@ -69,11 +62,7 @@ function showPage(page) {
                     htmlContent = `
                         <div class="container">
                             <h3>About Me</h3>
-                            <p>First Name: Nikola</p>
-                            <p>Last Name: Jergovic</p>
-                            <p>Family: 2 siblings, parents</p>
-                            <p>Location, ZIP: Opfikon, 8152</p>
-                            <p>Residence: Glattpark</p>
+                            <p>Name: Walter White</p>
                         </div>
                         <img src="https://banner2.cleanpng.com/20180421/tte/ave3i4fbc.webp">
                     `;
@@ -82,9 +71,7 @@ function showPage(page) {
                     htmlContent = `
                         <div class="container">
                             <h3>Contact Details</h3>
-                            <p>Number: +41 76 305 74 00</p>
-                            <p>Email: nikola.jergovic@gmail.com</p> 
-                            <p>School email: nikola.jergovic@sus-opfikon.ch</p>
+                            <p>Number: + 41 79 876 24 33</p>
                             <img src="https://www.kibar.com/-/media/images/pages/info/bize-ulasin-banner.jpg?h=448&la=de-DE&w=1366&hash=41A5451BAC927F4417E74B599041417254AB6835"
                             </div>
                     `;
